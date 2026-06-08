@@ -15,5 +15,8 @@
     "tailwind"
   ],
   "author": "Gabriel",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
 }
