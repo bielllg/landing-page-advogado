@@ -1,0 +1,19 @@
+{
+  "name": "landing-page-advogado",
+  "version": "1.0.0",
+  "description": "Gabriel & Co. | Landing Page Premium para Advocacia",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -p 8080",
+    "build": "npx tailwindcss -i input.css -o tailwind.css --minify",
+    "watch": "npx tailwindcss -i input.css -o tailwind.css --watch"
+  },
+  "keywords": [
+    "advocacia",
+    "landing-page",
+    "html",
+    "tailwind"
+  ],
+  "author": "Gabriel",
+  "license": "ISC"
+}
