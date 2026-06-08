@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx serve -p 8080",
-    "build": "npx tailwindcss -i input.css -o tailwind.css --minify",
+    "build:css": "npx tailwindcss -i input.css -o tailwind.css --minify",
     "watch": "npx tailwindcss -i input.css -o tailwind.css --watch"
   },
   "keywords": [
